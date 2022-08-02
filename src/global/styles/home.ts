@@ -51,3 +51,22 @@ export const ContainerCards = styled.ScrollView``;
 export const HorizontalScroll = styled.View`
   margin: -30% 0 0 5%;
 `;
+
+export const ContainerListagem = styled.View`
+  display: flex;
+  margin: 10% 5%;
+`;
+
+export const ListagemText = styled.Text`
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 20px;
+`;
+
+export const VerticalScroll = styled.View`
+  height: 60%;
+`;
+
+export const ContainerCardsListagem = styled.ScrollView``;
