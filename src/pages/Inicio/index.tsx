@@ -12,7 +12,7 @@ import {
 
 import Botao from "../../components/Botao";
 
-export default function Inicio() {
+export default function Inicio({ navigation }) {
   return (
     <Container>
       <StatusBar backgroundColor="#5636d3" />
@@ -26,7 +26,7 @@ export default function Inicio() {
       <Botao
         title="Clique aqui para entrar"
         funcao={() => {
-          alert("Clicou");
+          navigation.navigate("Home");
         }}
       ></Botao>
     </Container>
