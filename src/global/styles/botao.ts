@@ -4,14 +4,28 @@ export const ContainerButton = styled.TouchableOpacity`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: ${(props) => {
+    return String(props.width);
+  }};
   height: 56px;
-  background-color: #fff;
+  background-color: ${(props) => {
+    if (props.background) {
+      return "#FF872C";
+    } else {
+      return "#FFF";
+    }
+  }}
   border-radius: 5px;
 `;
 
 export const ContentButton = styled.Text`
-  color: #363f5f;
+  color: ${(props) => {
+    if (props.colorText) {
+      return "#FFF";
+    } else {
+      return "#363F5F";
+    }
+  }}
   font-size: 14px;
   font-weight: 500;
 `;
