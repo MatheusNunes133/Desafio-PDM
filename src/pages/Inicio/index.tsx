@@ -28,6 +28,7 @@ export default function Inicio({ navigation }) {
         funcao={() => {
           navigation.navigate("Home");
         }}
+        width="80%"
       ></Botao>
     </Container>
   );
