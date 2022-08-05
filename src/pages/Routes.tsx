@@ -6,6 +6,7 @@ import Icone from "react-native-vector-icons/MaterialIcons";
 import Inicio from "../pages/Inicio";
 import Home from "..//pages/Home";
 import Cadastro from "./Cadastro";
+import Resumo from "./Resumo";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -46,7 +47,7 @@ const TabNavigator = () => {
       />
       <Tab.Screen
         name="Resumo"
-        component={Home}
+        component={Resumo}
         options={{
           tabBarIcon: ({ size, color }) => {
             return <Icone name="graphic-eq" size={size} color={color} />;
