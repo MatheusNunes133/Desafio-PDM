@@ -8,6 +8,6 @@ export const ContainerCards = styled.View`
   padding: 5% 5%;
   margin: 0 5% 5% 5%;
   background-color: #fff;
-  height: 25%;
+  height: 70px;
   border-radius: 5px;
 `;
